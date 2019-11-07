@@ -8,7 +8,7 @@ class ExtraPerson:
 
     def change_age(self, age):
         while True:
-            if 5<age<95:
+            if 5 < age < 95:
                 self._age = age
                 break
             else:
