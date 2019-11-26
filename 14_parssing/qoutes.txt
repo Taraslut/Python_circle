@@ -1,0 +1,9 @@
+"Albert Einstein", "The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking."
+.
+.
+.
+.
+.
+.
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+https://stackoverflow.com/questions/5041008/how-to-find-elements-by-class
