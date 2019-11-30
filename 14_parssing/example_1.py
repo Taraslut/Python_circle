@@ -1,12 +1,24 @@
 import requests
 import bs4
 
-responce = requests.get("http://quotes.toscrape.com/")
+url = ""
+start_url = 'http://quotes.toscrape.com'
 
-# print(responce.text)
+while True:
+    print(url)
+    url = start_url + url
+    responce = requests.get(url)
+    soup = bs4.BeautifulSoup(responce.text, 'html.parser')
+    for item in soup.find_all("div", {'class':'quote'}):
+        print(item.span.text)
+        print(item.find('small', {'class':'author'}).text)
 
-soup = bs4.BeautifulSoup(responce.text, 'html.parser')
-print(soup.title.string)
-divs = soup.find_all("div", {"class":"qoute"})
-print(len(divs))
+    li = soup.find('li', {'class': 'next'})
+    if li is None:
+        break
+    a = li.a
+    url = a['href']
+
+
+
 
