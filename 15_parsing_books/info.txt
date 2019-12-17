@@ -1,0 +1,16 @@
+https://liniakino.com/showtimes/kosmos/
+https://tiptop.ua/
+
+А це для гурманів:
+http://ilife.if.ua/
+
+GET:
+https://www.google.com/search?
+sxsrf=ACYBGNQtNYvNiOjV4tdlLV0u6esO7754cw%3A1576601622413
+&source=hp
+&ei=Fgj5Xdm9FouprgT67pOIDQ
+&q=cat
+&oq=cat
+&gs_l=psy-ab.3..0l10.21290.21753..24507...3.0..0.92.268.3......0....1..gws-wiz.....10..35i362i39j0i131j35i39.GWNJB5A_zyY
+&ved=0ahUKEwjZoJ3dkr3mAhWLlIsKHXr3BNEQ4dUDCAU
+&uact=5
